@@ -1,0 +1,6 @@
+.content {
+  flex-grow: 1; /*Если контента будет меньше высоты страницы*/
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+}

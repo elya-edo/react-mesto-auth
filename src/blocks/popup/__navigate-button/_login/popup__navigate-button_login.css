@@ -1,0 +1,17 @@
+.popup__navigate-button_login {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    background: #000000;
+    border: 0;
+  }
+
+  .popup__navigate-button_login:hover {
+    opacity: 0.6;
+    transition: opacity 0.2s ease-out;
+    cursor: pointer;
+  }
