@@ -8,5 +8,7 @@
   bottom: 0;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0.4s, opacity 0.4s linear;
+  transition:
+    visibility 0.4s,
+    opacity 0.4s linear;
 }

@@ -2,7 +2,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-overflow: ellipsis; /*набор свойств реализ. многоточие при переполнении*/
   white-space: nowrap; /*набор свойств реализ. многоточие при переполнении*/
   overflow: hidden; /*набор свойств реализ. многоточие при переполнении*/

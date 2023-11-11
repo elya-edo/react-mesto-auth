@@ -1,6 +1,6 @@
 .header__menu {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    margin-top: 8px;
-  }
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 8px;
+}

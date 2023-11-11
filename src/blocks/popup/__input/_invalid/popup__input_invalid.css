@@ -1,3 +1,4 @@
-.popup__input_invalid {  /* стиль невалидного поле */
+.popup__input_invalid {
+  /* стиль невалидного поле */
   border-bottom: 1px solid #f00;
 }

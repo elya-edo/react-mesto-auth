@@ -1,6 +1,6 @@
-import React from 'react';
-import Card from './Card.js';
-import { CurrentUserContext } from '../context/CurrentUserContext';
+import React from "react";
+import Card from "./Card.js";
+import { CurrentUserContext } from "../context/CurrentUserContext";
 
 export function Main(props) {
   const currentUser = React.useContext(CurrentUserContext); // подписка на контекст текущего пользователя
@@ -8,8 +8,15 @@ export function Main(props) {
   return (
     <main className="content">
       <section className="profile">
-        <img className="profile__avatar" src={currentUser.avatar} alt="Аватар пользователя" />
-        <div className="profile__edit-avatar" onClick={props.onEditAvatar}></div>
+        <img
+          className="profile__avatar"
+          src={currentUser.avatar}
+          alt="Аватар пользователя"
+        />
+        <div
+          className="profile__edit-avatar"
+          onClick={props.onEditAvatar}
+        ></div>
         <div className="profile__info">
           <h1 className="profile__name">{currentUser.name}</h1>
           <button
